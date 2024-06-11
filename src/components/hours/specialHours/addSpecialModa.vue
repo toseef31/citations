@@ -286,7 +286,7 @@ const addDate = () => {
                   <div class="block mt-6">
                     <button
                       type="button"
-                      class="flex items-center w-full justify-center rounded-md bg-white px-5 py-2 text-sm font-semibold font-montserrat ring-accent-green-gradient-2 text-secondary shadow-sm hover:bg-green-gradient-3 ring-1 ring-inset hover:text-white hover:ring-0 sm:w-[144px]"
+                      class="flex items-center w-full justify-center rounded-md bg-white px-5 py-2 text-sm font-semibold font-montserrat ring-accent-green-gradient-2 text-secondary shadow-sm hover:bg-green-gradient-3 ring-2 ring-inset hover:text-white hover:ring-0 sm:w-[144px]"
                       @click="addDate"
                       @mouseover="isHovered = 'date'"
                       @mouseleave="isHovered = ''"
@@ -306,7 +306,7 @@ const addDate = () => {
               <div class="mt-5 sm:mt-8 sm:flex sm:flex-row-reverse justify-end">
                 <button
                   type="button"
-                  class="flex items-center w-full justify-center rounded-md bg-white px-7 py-3 text-sm font-semibold font-montserrat ring-accent-green-gradient-2 text-secondary shadow-sm hover:bg-green-gradient-3 ring-1 ring-inset hover:text-white hover:ring-0 sm:ml-3 sm:w-[120px]"
+                  class="flex items-center w-full justify-center rounded-md bg-white px-7 py-3 text-sm font-semibold font-montserrat ring-accent-green-gradient-2 text-secondary shadow-sm hover:bg-green-gradient-3 ring-2 ring-inset hover:text-white hover:ring-0 sm:ml-3 sm:w-[120px]"
                   @click="save"
                   @mouseover="isHovered = 'save'"
                   @mouseleave="isHovered = ''"
@@ -320,7 +320,7 @@ const addDate = () => {
                 </button>
                 <button
                   type="button"
-                  class="mt-3 flex w-full items-center justify-center rounded-md bg-white px-7 py-3 text-sm font-semibold font-montserrat text-secondary shadow-sm ring-1 ring-inset ring-accent-green-gradient-2 hover:bg-green-gradient-3 hover:text-white hover:ring-0 sm:mt-0 sm:w-[120px]"
+                  class="mt-3 flex w-full items-center justify-center rounded-md bg-white px-7 py-3 text-sm font-semibold font-montserrat text-secondary shadow-sm ring-2 ring-inset ring-accent-green-gradient-2 hover:bg-green-gradient-3 hover:text-white hover:ring-0 sm:mt-0 sm:w-[120px]"
                   @click="closeModal"
                   @mouseover="isHovered = 'cancel'"
                   @mouseleave="isHovered = ''"
